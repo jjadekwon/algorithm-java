@@ -125,7 +125,7 @@ class Position {
 		this.y = y;
 		this.dist = dist;
 	}
-	
+	 
 	public boolean equals(Object o) {
 		Position p = (Position)o;
 		if (this.x == p.x && this.y == p.y) return true;
