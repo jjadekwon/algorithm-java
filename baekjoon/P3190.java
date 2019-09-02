@@ -113,9 +113,17 @@ public class P3190 {
 class Position {
 	int x;
 	int y;
+	int dist;
+	
 	public Position(int x, int y) {
 		this.x = x;
 		this.y = y;
+	}
+	
+	public Position(int x, int y, int dist) {
+		this.x = x;
+		this.y = y;
+		this.dist = dist;
 	}
 	
 	public boolean equals(Object o) {
