@@ -102,7 +102,7 @@ public class P13460 {
 				
 				if (!isFailed && 
 					(red.x != nextRedX || red.y != nextRedY || blue.x != nextBlueX || blue.y != nextBlueY)) {
-					// 공 두 개가 겹치는 경우
+					// 공 두 개가 겹치는 경우 좌표 조정
 					if (nextRedX == nextBlueX && nextRedY == nextBlueY) {
 						if (red.x > blue.x) {
 							if (dx[i] == 1) {
