@@ -43,6 +43,10 @@ public class P1932 {
 			if (dp[n-1][i] > max) max = dp[n-1][i];
 		}
 		
-		System.out.println(max);
+		bw.write(max + "");
+		bw.flush();
+		
+		bw.close();
+		br.close();
 	}
 }
